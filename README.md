@@ -2,6 +2,10 @@
 
 `queuectl` is a fully local, durable command job queue. It stores jobs and configuration in SQLite and executes commands in detached Node worker processes. No cloud services are used.
 
+## Demo
+
+[Watch the demo](https://drive.google.com/file/d/1ki5zDswtWzcRDpJVvhGmBw91ZgKVUbEC/view)
+
 ## Quick start
 
 ```sh
