@@ -1,0 +1,11 @@
+{
+  "name": "queuectl",
+  "version": "1.0.4",
+  "description": "A durable local command job queue with forked workers",
+  "main": "bin/queuectl.js",
+  "bin": { "queuectl": "bin/queuectl.js" },
+  "type": "commonjs",
+  "scripts": { "test": "node --test test/*.test.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "better-sqlite3": "^12.4.1", "commander": "^14.0.1" }
+}
